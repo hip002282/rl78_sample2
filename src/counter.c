@@ -273,5 +273,10 @@ void BCNT_Counter( void )
 
 void update_week_var(void) {
     extern int week_var;
-    week_var = 1;
+    if (week_var == 0) {
+	    week_var = 1;
+    }
+    else {
+	    week_var = 0;
+    }
 }
