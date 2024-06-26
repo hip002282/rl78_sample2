@@ -42,7 +42,8 @@ Macro definitions
 *******************************************************************************/
 #define CNT_HOLDTYPE		1
 #define CNT_CYCLICTYPE		2
-
+#define TRUE 1
+#define FALSE 0
 /*******************************************************************************
 ** CNT_INIT0	
 ********************************************************************************/
@@ -136,5 +137,7 @@ void	BCNT_Initialize( void );
 void	BCNT_Counter_Clear( void );
 UCHAR	BCNT_Evaluate( UCHAR mr, UCHAR cp0, UCHAR cp1, UCHAR max );
 void	BCNT_Counter( void );
+
+void	update_week_var(void);
 
 #endif /* _COUNTER_H_ */

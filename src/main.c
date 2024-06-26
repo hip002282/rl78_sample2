@@ -42,6 +42,7 @@ Includes <System Includes> , "Project Includes"
 #include "timer.h"
 #include "watchdogtimer.h"
 #include "panel.h"
+#include "74hc.h"
 
 /*******************************************************************************
 Macro definitions
@@ -54,7 +55,7 @@ Typedef definitions
 /*******************************************************************************
 Imported global variables and functions (from other files)
 *******************************************************************************/
-
+int week_var = 0;
 /*******************************************************************************
 Exported global variables and functions (to be accessed by other files)
 *******************************************************************************/
@@ -91,11 +92,11 @@ void main( void )
 ********************************************************************************/
 void main_loop( void )
 {
-	while(1) {
 
+	while(1) {
 		/* Panel proccessing */
 		panel();
-
+		
 		/* Watchdog timer reset start */
 		WDT_Reset();
 

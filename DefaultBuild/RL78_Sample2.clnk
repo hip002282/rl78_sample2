@@ -7,8 +7,8 @@
 -Input=DefaultBuild\system.obj
 -Input=DefaultBuild\systeminit.obj
 -Input=DefaultBuild\panel.obj
--Input=DefaultBuild\digitalio.obj
 -Input=DefaultBuild\counter.obj
+-Input=DefaultBuild\digitalio.obj
 -Input=DefaultBuild\74hc.obj
 -Input=DefaultBuild\cstart.obj
 -Input=DefaultBuild\opt_byte.obj

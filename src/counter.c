@@ -241,6 +241,7 @@ UCHAR BCNT_Evaluate( UCHAR mr, UCHAR cp0, UCHAR cp1, UCHAR max )
 	if (count > max) {
 		/* (Count value of binary counter)<-0 */
 		count = 0;
+		update_week_var();
 	}
 	
 	/* This value of cp0 of binary counter is preserved. */
@@ -269,3 +270,8 @@ void BCNT_Counter( void )
 }
 
 #endif /* end of defined BCNT_USED */
+
+void update_week_var(void) {
+    extern int week_var;
+    week_var = 1;
+}
