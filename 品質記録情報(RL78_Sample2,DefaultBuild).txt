@@ -1,8 +1,8 @@
 品質記録情報
-2024年6月26日 9:40:26
+2024年6月26日 9:56:03
 
 ------ ビルド開始(RL78_Sample2, DefaultBuild) ------
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\counter.c -cpu=S3 -o DefaultBuild\counter.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F1058A.DVF" -g -g_line -Osize -I include -c -msg_lang=japanese
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\74hc.c -cpu=S3 -obj_path=DefaultBuild "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F1058A.DVF" -g -g_line -Osize -I include -c -msg_lang=japanese
 W0511186:CC-RL V1のオプション"-Osize"の評価期間は残り47日です。評価期間経過後は、暗黙に"-Olite"指定に変更されます。引き続き"-Osize"を利用したい場合は製品の購入をご検討ください。
 C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\rlink.exe -subcommand=DefaultBuild\RL78_Sample2.clnk
 W0561018:The evaluation period of CC-RL V1 is valid for the remaining 47 days. After that, functional limit will be applied. Please consider purchasing the product.
@@ -53,8 +53,8 @@ DefaultBuild\RL78_Sample2.clnk :
 
 
 --- SHA1 hash value of output files ---
-C:\Users\a_hosokura\Documents\RL78_sample2\DefaultBuild\RL78_Sample2.abs: bdc79006eb7e1ef4c71d15a34309a75b9f908e06
-C:\Users\a_hosokura\Documents\RL78_sample2\DefaultBuild\RL78_Sample2.hex: 83c04ade10fef5ad40d47334625867faa88ce8f0
+C:\Users\a_hosokura\Documents\RL78_sample2\DefaultBuild\RL78_Sample2.abs: 139de219c449fa220c8b06bb699dbfb87531f8c8
+C:\Users\a_hosokura\Documents\RL78_sample2\DefaultBuild\RL78_Sample2.hex: 8fbde0a0a19faad49285eaabca8ac60d71ea84fc
 
 
 --- システム情報 ---
@@ -80,13 +80,13 @@ C:\Users\a_hosokura\Documents\RL78_sample2\DefaultBuild\RL78_Sample2.hex: 83c04a
  C:\Program Files (x86)\Renesas Electronics\CS+\CC
 *メモリ使用量
  *プライベート・ワーキング・セット
-  256 MB
+  340 MB
  *GDIオブジェクト数
-  2131
+  2390
  *USERオブジェクト数
-  1342
+  1696
  *開いているファイル
-  11 editors, 11 files, 105 KB
+  11 editors, 11 files, 104 KB
 
 --- ビルド・ツール・プラグイン情報 ---
 RH850ビルド・ツールCC-RH用プラグイン
@@ -249,6 +249,9 @@ C:\Users\a_hosokura\Documents\RL78_sample2\RL78_Sample2.mtpj
 デバッグ・ツール情報
  *RL78 シミュレータ
   Debugger Library V8.11.00.03 [21 Nov 2023]
+  RL78 Simulator V5.09.00.02 [31 Oct 2023]
+  Simulator ChipFile [R5F1058A] V1.06.00.01
+  RL78_G11 Simulator V2.09.00.02 [31 Oct 2023]
   
 
 その他のツール情報

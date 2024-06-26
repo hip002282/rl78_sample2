@@ -93,10 +93,5 @@ void panel(void)
 	DGOUT_PROC( 51, F0918, HIGH );
 	DGOUT_PROC( 52, F0919, HIGH );
 	DGOUT_PROC( 53, F0920, HIGH );
-	if (week_var == 0) {
-		DGOUT_PROC( 54, fOFF, HIGH );
-	}
-	else {
-		DGOUT_PROC( 54, fOFF, LOW );
-	}
+	DGOUT_PROC( 54, fOFF, HIGH );
 }
