@@ -1,4 +1,4 @@
-Renesas Optimizing Linker (W3.06.00 )             26-Jun-2024 09:56:02
+Renesas Optimizing Linker (W3.06.00 )             27-Jun-2024 13:05:17
 
 *** Options ***
 
@@ -17,6 +17,7 @@ Renesas Optimizing Linker (W3.06.00 )             26-Jun-2024 09:56:02
 -Input=DefaultBuild\74hc.obj
 -Input=DefaultBuild\cstart.obj
 -Input=DefaultBuild\opt_byte.obj
+-Input=DefaultBuild\translator.obj
 -SECURITY_ID=00000000000000000000
 -DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F1058A.DVF
 -DEBug
